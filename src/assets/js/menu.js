@@ -10,15 +10,15 @@ const menus = [
       },
       {
         title: '便民服务',
-        name: 'communitybuilding'
+        name: 'convenience'
       },
       {
         title: '社区活动',
-        name: 'communitybuilding'
+        name: 'Communityhu'
       },
       {
         title: '村情概述',
-        name: 'communitybuilding'
+        name: 'situationoverview'
       }
     ]
   },

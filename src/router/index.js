@@ -5,13 +5,16 @@ Vue.use(Router)
 const Page = () => import('@/views/Page')
 const Home = () => import('@/views/Home')
 const Login = () => import('@/views/Login')
-const RealTimeMonitor = name => () => import('@/views/RealTimeMonitor/' + name)
-const PersonManagement = name => () => import('@/views/PersonManagement/' + name)
-const FallWaring = name => () => import('@/views/FallWaring/' + name)
-const CarsManagement = name => () => import('@/views/CarsManagement/' + name)
-const DeviceManagement = name => () => import('@/views/DeviceManagement/' + name)
-const AccountManagement = name => () => import('@/views/AccountManagement/' + name)
+// const RealTimeMonitor = name => () => import('@/views/RealTimeMonitor/' + name)
+// const PersonManagement = name => () => import('@/views/PersonManagement/' + name)
+// const FallWaring = name => () => import('@/views/FallWaring/' + name)
+// const CarsManagement = name => () => import('@/views/CarsManagement/' + name)
+// const DeviceManagement = name => () => import('@/views/DeviceManagement/' + name)
+// const AccountManagement = name => () => import('@/views/AccountManagement/' + name)
+const convenience = name => () => import('@/views/convenience/' + name)
 const communitybuilding = name => () => import('@/views/communitybuilding/' + name)
+const Communityhu = name => () => import('@/views/Communityhu/' + name)
+const situationoverview = name => () => import('@/views/situationoverview/' + name)
 export default new Router({
   routes: [
     {
@@ -70,13 +73,28 @@ export default new Router({
           path: '/communitybuilding',
           name: 'communitybuilding',
           component: communitybuilding('communitybuilding')
+        },
+        {
+          path: '/convenience',
+          name: 'convenience',
+          component: convenience('convenience')
+        },
+        {
+          path: '/Communityhu',
+          name: 'Communityhu',
+          component: Communityhu('Communityhu')
+        },
+        {
+          path: '/situationoverview',
+          name: 'situationoverview',
+          component: situationoverview('situationoverview')
         }
       ]
     },
-    // {
-    //   path: '/login',
-    //   name: 'Login',
-    //   component: Login
-    // }
+    {
+      path: '/login',
+      name: 'Login',
+      component: Login
+    }
   ]
 })

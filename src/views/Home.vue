@@ -203,17 +203,17 @@ export default {
       }
     }
     .el-main {
-      padding-left: 200px;
+      padding-left:0px;
       width: 100vw;
       height: 100%;
-      background: #010101;
+      background: #ffffff;
     }
 
   }
   footer {
-    background: black;
+    background: #FFFFFFFF;
     text-align: center;
-    color: #FFFFFF;
+    color: black;
     border-top: 3px solid #7B7B7B;
     padding: 10px 0;
     p {
