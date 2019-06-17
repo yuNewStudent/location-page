@@ -371,7 +371,7 @@ export default {
         line-height: 39px;
         float: right;
         text-align: right;
-        border-bottom: 1px solid #ffffff;
+        border-bottom: 1px solid #e1e1e1;
       }
       .Communityhu_lll li {
         line-height: 35px;

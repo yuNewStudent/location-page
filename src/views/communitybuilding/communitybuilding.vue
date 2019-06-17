@@ -93,7 +93,7 @@
       </div>
       <div class="communitybuilding_lr">
           <div class="communitybuilding_lrt">
-         <h1>党建要闻</h1>
+         <h1>最新咨询</h1>
         </div>
         <div class="communitybuilding_lrr">
         </div>
@@ -414,10 +414,10 @@ export default {
     .communitybuilding_hwr{
         width: 93%;
         float: right;
-        color: #FFFFFF;
+        color: black;
     }
     .communitybuilding_l{
-        width: 100%;
+        padding: 0 100px;
         margin-top: 20px;
         display: flex;
         .communitybuilding_ll{
@@ -437,11 +437,12 @@ export default {
                 float: left;
             }
             .communitybuilding_lltr{
-                width: 521.5px;
+                width: 414px;
                 line-height: 39px;
                 float: right;
                 text-align: right;
-                border-bottom: 1px solid #ffffff;
+                color: #191919;
+                border-bottom: 1px solid #e1e1e1;
             }
             .communitybuilding_lll li{
                 line-height:35px;
@@ -469,10 +470,10 @@ export default {
             }
             .communitybuilding_lrr{
                 height: 39px;
-                width: 433px;
+                width: 340px;
                 float: right;
                 text-align: right;
-                border-bottom: 1px solid #ffffff;
+                border-bottom: 1px solid #e1e1e1e1;
             }
             .communitybuilding_lrm{
                 margin-top: 10px;
@@ -504,13 +505,13 @@ export default {
                 float: left;
             }
         .communitybuilding_t li{
-            width: 20%;
+            width:30%;
             float: left;
             text-align: center;
             line-height:38px;
         }    
         .communitybuilding_m{
-            width: 10%;
+            width: 13%;
             line-height:38px;
             float:right;
         }

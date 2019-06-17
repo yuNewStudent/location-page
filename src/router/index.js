@@ -15,6 +15,8 @@ const convenience = name => () => import('@/views/convenience/' + name)
 const communitybuilding = name => () => import('@/views/communitybuilding/' + name)
 const Communityhu = name => () => import('@/views/Communityhu/' + name)
 const situationoverview = name => () => import('@/views/situationoverview/' + name)
+const attractions = name => () => import('@/views/attractions/' + name)
+const accommodation = name => () => import('@/views/accommodation/' + name)
 export default new Router({
   routes: [
     {
@@ -88,6 +90,16 @@ export default new Router({
           path: '/situationoverview',
           name: 'situationoverview',
           component: situationoverview('situationoverview')
+        },
+        {
+          path: '/attractions',
+          name: 'attractions',
+          component: attractions('attractions')
+        },
+        {
+          path: '/accommodation',
+          name: 'accommodation',
+          component: accommodation('accommodation')
         }
       ]
     },

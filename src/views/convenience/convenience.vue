@@ -168,6 +168,7 @@ export default {
         width: 100%;
         margin-top: 20px;
         display: flex;
+         padding: 0 100px;
         .convenience_ll{
             width: 1200px;
              color: #FFFFFF;

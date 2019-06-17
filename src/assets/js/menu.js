@@ -28,7 +28,19 @@ const menus = [
     icon: require('@/assets/img/社区文旅ic _灰.png'),
     group: [
       {
-        title: '社区活动',
+        title: '景点推荐',
+        name: 'attractions'
+      },
+      {
+        title: '酒店名宿',
+        name: 'accommodation'
+      },
+      {
+        title: '饭店小吃',
+        name: 'communitybuilding'
+      },
+      {
+        title: '文化活动',
         name: 'communitybuilding'
       }
     ]
